@@ -1,0 +1,19 @@
+org_name: nullstone
+name: noop-capability
+friendly_name: Noop Capability
+description: A capability that replaces a capability in a specific environment with no functionality.
+category: capability
+subcategory: sidecars
+provider_types:
+    - aws
+    - gcp
+    - azure
+platform: '*'
+subplatform: ""
+appCategories:
+    - container
+    - serverless
+    - static-site
+    - server
+is_public: true
+tool_name: terraform
